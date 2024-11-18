@@ -1,0 +1,28 @@
+/* src/styles/MarketOverview.css */
+.market-overview {
+    padding: 2rem;
+  }
+  
+  .coin-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .coin-item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .coin-item img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .coin-item h3 {
+    margin-top: 1rem;
+  }
+  

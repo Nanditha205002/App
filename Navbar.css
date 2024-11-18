@@ -1,0 +1,28 @@
+/* src/styles/Navbar.css */
+body {
+  background-color: #ecf0f1; /* Light background for contrast */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #34495e; /* Slightly lighter than original */
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+  border-radius: 8px; /* Rounded edges for modern look */
+}
+
+nav a {
+  color: #ecf0f1; /* Softer white for links */
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+  background-color: #1abc9c; /* Brighter hover effect for pop */
+  color: #2c3e50; /* Dark color on hover for contrast */
+  border-radius: 5px;
+}

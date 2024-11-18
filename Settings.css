@@ -1,0 +1,47 @@
+/* src/styles/Settings.css */
+.settings {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .settings label {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .settings input,
+  .settings select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .settings button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .settings button:hover {
+    background-color: #2980b9;
+  }
+  
+  .settings div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .settings input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  

@@ -1,0 +1,12 @@
+/* src/styles/CoinHistory.css */
+.coin-history {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  

@@ -1,0 +1,38 @@
+/* src/styles/Portfolio.css */
+
+.portfolio {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .portfolio h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portfolio li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e1e5eb;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio li p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
